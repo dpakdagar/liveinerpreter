@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    /* border: 1px double red; */
+    height: 8vh;
+    display: flex;
+}
+.heading h1{
+    color: white;
+    margin-top: 1vh;
+}
+.logo1{
+    height:6vh;
+    width: 10vw;
+    /* background-color: azure; */
+    background-image: url(/images/w3_html5-ar21.png);
+    align-self:center;
+    margin-left: 65vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logo2{
+    height:6vh;
+    width: 8vw;
+    /* background-color: azure; */
+    background-image: url(/images/css.png);
+    align-self:center;
+    margin-left: 3vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#d1{
+    position: absolute;
+    left: 48.5vw;
+    top: 8vh;
+    height: 80vh;
+    width: 50%;
+    background-color:rgba(0, 0, 0, 0.363);
+    color: white;
+    /* border: 1px solid red; */
+    font-size: large;
+    padding-left: 4px;
+}
+#d3{
+    
+    width: 48vw;
+    height: 80vh;
+    background-color:rgb(211, 200, 186);
+    color: #0059b2;
+    border: 2px solid black;
+    font-size: large;
+    padding-left: 4px;
+}
+#footer{
+    position: absolute;
+    left: 0%;
+    top: 90vh;
+    /* background-color: red; */
+    height: 6vh;
+    color: #0059b2;
+}
